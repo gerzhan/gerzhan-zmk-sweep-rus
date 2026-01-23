@@ -87,6 +87,24 @@
             tapping-term-ms = <200>;
         };
 
+        DTapUnderscore: DTapUnderscore {
+            compatible = "zmk,behavior-tap-dance";
+            label = "DTAPUNDERSCORE";
+            #binding-cells = <0>;
+            bindings = <&kp MINUS>, <&kp UNDERSCORE>;
+
+            tapping-term-ms = <200>;
+        };
+
+        DTapDbQuote: DTapDbQuote {
+            compatible = "zmk,behavior-tap-dance";
+            label = "DTAPDBQUOTE";
+            #binding-cells = <0>;
+            bindings = <&kp SINGLE_QUOTE>, <&kp DOUBLE_QUOTES>;
+
+            tapping-term-ms = <200>;
+        };
+
         mmv {
             acceleration-exponent = <1>;      // 1
             time-to-max-speed-ms = <300>;    // 40
