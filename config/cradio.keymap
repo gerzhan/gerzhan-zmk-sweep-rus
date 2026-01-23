@@ -269,6 +269,12 @@
             key-positions = <32 31>;
             layers = <0>;
         };
+
+        fast_bpsc {
+            bindings = <&kp BSPC>;
+            key-positions = <8 9>;
+            layers = <0>;
+        };
     };
 
     keymap {
